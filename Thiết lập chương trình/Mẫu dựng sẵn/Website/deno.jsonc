@@ -1,0 +1,19 @@
+{
+  "imports": {
+    // "lume/": "../../../../Programming/Theo nhu cầu/Web/JS/Lume/lume/",
+    // "wiki/": "../../../../Programming/Theo nhu cầu/Web/JS/Lume/theme-simple-wiki/"
+    "lume/": "https://deno.land/x/lume@v2.2.4/",
+    "wiki/": "https://deno.land/x/lume_theme_simple_wiki@v0.9.3/"
+  },
+  "tasks": {
+    "lume": "echo \"import 'lume/cli.ts'\" | deno run -A --v8-flags=--max-old-space-size=8192 -",
+    "build": "deno task lume",
+    "serve": "deno task lume -s",
+    "cms": "deno task lume cms"
+  },
+  "compilerOptions": {
+    "types": [
+      "lume/types.ts"
+    ]
+  }
+}

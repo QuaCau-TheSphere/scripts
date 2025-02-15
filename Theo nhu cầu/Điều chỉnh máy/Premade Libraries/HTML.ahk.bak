@@ -1,0 +1,41 @@
+﻿;~ :*oc:href::<a href="^v" target="_blank"></a>{Left 4}
+:*oc:<href::<a href="^v" target="_blank"></a>{Left 4}
+:*oc:<ul::<ul>{Enter}{Enter}</ul>{Up}
+:*oc:<ol::<ol>{Enter}{Enter}</ol>{Up}
+:*oc:<li::<li></li>{Left 5}
+:*oc:<co::<code></code>{Left 7}
+:*oc:<p::<p></p>{Left 4}
+:*oc:<bk::<blockquote>^v</blockquote>
+:*oc:img::<img src="^v">
+:*oc:<img::<img src="^v">
+:*oc:<str::<strong></strong>{Left 9}
+:oc:<b::<b></b>{Left 4}
+:*oc:<sub::<sub></sub>{Left 6}
+:*oc:<sup::<sup></sup>{Left 6}
+^!b::Send , ^c<b>^v</b>
+:*oc:<i::<i></i>{Left 4}
+^!i::Send , ^c<i>^v</i>
+:*oc:<u::<u></u>{Left 4}
+^!u::Send , ^c<u>^v</u>
+:*oc:<em::<em></em>{Left 5}
+:*oc:<h1::<h1></h1>{Left 5}
+:*oc:<h2::<h2></h2>{Left 5}
+:*oc:<h3::<h3></h3>{Left 5}
+:*oc:<h4::<h4></h4>{Left 5}
+:*oc:<html::<html>{Enter}{Enter}</html>{Up}
+:*oc:<head::<head>{Enter}{Enter}</head>{Up}
+:*oc:<body::<body>{Enter}{Enter}</body>{Up}
+
+:*oc:<br::<br>
+:*oc:mailto::<a href="mailto:^v"></a>{Left 4}
+:*oc:<div::<div></div>{Left 6}
+:oc:cmt::<{!}--  -->{Left 4}
+:oc:<hr::<hr>
+
+; tables
+:oc:<tab::<table>{Enter}{Enter}</table>{Up}
+:oc:<tr::<tr>{Enter}{Enter}</tr>{Up}
+:oc:<td::<td></td>{Left 5}
+
+:oc:skel::<html>{Enter}<head>{Enter}<title></title>{Enter}</head>{Enter}<body>{Enter}{Enter}</body>{Enter}</html>
+Return

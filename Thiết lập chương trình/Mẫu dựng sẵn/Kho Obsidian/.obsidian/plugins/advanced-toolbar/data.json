@@ -1,0 +1,18 @@
+{
+  "rowHeight": 48,
+  "rowCount": 1,
+  "spacing": 0,
+  "buttonWidth": 48,
+  "columnLayout": true,
+  "alwaysShowToolbar": true,
+  "mappedIcons": [
+    {
+      "commandID": "templater-obsidian:insert-templater",
+      "iconID": "layout-list"
+    }
+  ],
+  "allowStylingOfAllActions": false,
+  "tooltips": false,
+  "heightOffset": 25,
+  "debugging": false
+}

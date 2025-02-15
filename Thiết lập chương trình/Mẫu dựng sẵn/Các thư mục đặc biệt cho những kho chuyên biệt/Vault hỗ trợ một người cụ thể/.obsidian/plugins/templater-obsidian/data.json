@@ -1,0 +1,46 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Thiết lập/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "Thiết lập/Templates",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Thông tin thân chủ",
+      "template": "Thiết lập/Templates/Vấn đề.md"
+    },
+    {
+      "folder": "Kế hoạch tác động/Điểm mạnh, điểm yếu",
+      "template": "Thiết lập/Templates/Vấn đề.md"
+    },
+    {
+      "folder": "Kế hoạch tác động/Thành quả mong muốn (outcome)",
+      "template": "Thiết lập/Templates/Thành quả.md"
+    },
+    {
+      "folder": "Kế hoạch tác động/Thành phẩm nhỏ hơn (output)",
+      "template": "Thiết lập/Templates/Thành phẩm.md"
+    },
+    {
+      "folder": "Thông tin thân chủ/Mối quan hệ",
+      "template": "Thiết lập/Templates/Bạn bè, người thân.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

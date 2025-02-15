@@ -1,0 +1,45 @@
+#IfWinActive
+#NoEnv
+#SingleInstance Force
+
+SetTimer CheckMouse, -300
+return
+
+CheckMouse:
+    CoordMode, Mouse, Screen
+    WinGet, id, ID, ahk_class Chrome_WidgetWin_1
+        DISABLE_CloseButton(id)
+    MouseGetPos, mX, mY, WindowUnderMouse
+    WinGetPos, wX, wY, wW, wH, ahk_id %WindowUnderMouse%
+        CloseButton := (mY > wY and mY < wY+50 and (mX > wX + (wW-50) and mX < wX+wW))
+    SetTimer CheckMouse, -300
+return
+
+#If (CloseButton)
+
+    ~LButton Up::
+        MouseGetPos,,, WindowUnderMouse
+        WinGetClass, Class, ahk_id %WindowUnderMouse%
+        If (Class="Chrome_WidgetWin_1")
+            WinMinimize, ahk_id %WindowUnderMouse%
+    return
+
+#If WinActive("ahk_class Chrome_WidgetWin_1")
+
+    !F4:: WinMinimize, A
+
+#If
+
+
+DISABLE_CloseButton(id){ ;By RealityRipple at http://www.xtremevbtalk.com/archive/index.php/t-258725.html   
+  menu:=DllCall("user32\GetSystemMenu","UInt",id,"UInt",0)
+  DllCall("user32\DeleteMenu","UInt",menu,"UInt",0xF060,"UInt",0x0)
+  WinGetPos,x,y,w,h,ahk_id %id%
+  WinMove,ahk_id %id%,,%x%,%y%,%w%,% h-1
+  WinMove,ahk_id %id%,,%x%,%y%,%w%,% h+1
+}
+
+ENABLE_CloseButton(id){ ;By Mosaic1 at http://www.xtremevbtalk.com/archive/index.php/t-258725.html  
+  menu:=DllCall("user32\GetSystemMenu","UInt",id,"UInt",1)
+  DllCall("user32\DrawMenuBar","UInt",id)
+}

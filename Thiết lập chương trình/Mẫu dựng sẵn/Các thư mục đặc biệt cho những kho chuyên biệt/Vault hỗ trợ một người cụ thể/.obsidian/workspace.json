@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "d66b5215f33af7ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "17a91de7290ecb63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c2865f2a10497f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Megan phát sinh tình cảm với Guro.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1712bb2032f9b581",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Cái tên ❝thay đổi người khác❞ gây kích ứng.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd754d9716d8fee3",
+    "type": "split",
+    "children": [
+      {
+        "id": "54e598bd815941cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04be2becca472d2d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4c392dd4240f69de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b1c81b787782e5a",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5
+  },
+  "right": {
+    "id": "2d0aeaa197cb9f95",
+    "type": "split",
+    "children": [
+      {
+        "id": "8201cf6c17dc365d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4218b0231ae0b150",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Cái tên ❝thay đổi người khác❞ gây kích ứng.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "107a2cb207f6de6d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Cái tên ❝thay đổi người khác❞ gây kích ứng.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "13508a5fa1ab246a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb38dd08772d00ac",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Cái tên ❝thay đổi người khác❞ gây kích ứng.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "open-vscode:VSCode": false
+    }
+  },
+  "active": "1712bb2032f9b581",
+  "lastOpenFiles": [
+    "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Megan phát sinh tình cảm với Guro.md",
+    "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Cái tên ❝thay đổi người khác❞ gây kích ứng.md",
+    "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Mạng lưới",
+    "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Khó nhớ nếu không ghi lại ngay.md",
+    "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Danish không muốn nghe hoặc không tin tưởng vào mình.md",
+    "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Danish có thể có những quan điểm khác với mình về việc hỗ trợ Megan.md",
+    "3 Chương trình tác động/1 Nhu cầu. Điểm mạnh, điểm yếu/Điểm yếu/Ai nghe Megan kể drama cũng sẽ bị cuốn theo, và không cuốn theo cũng không được.md",
+    "3 Chương trình tác động/Giải pháp gợi ý/Cho thấy mâu thuẫn của bản thân.md",
+    "3 Chương trình tác động/Giải pháp gợi ý/Khiến cho Megan muốn đặt câu hỏi.md",
+    "3 Chương trình tác động/Giải pháp gợi ý/Làm Megan muốn làm vault.md",
+    "3 Chương trình tác động/Giải pháp gợi ý/Làm game con bò.md",
+    "3 Chương trình tác động/Giải pháp gợi ý/Làm Megan hết cảm xúc với Nhật.md",
+    "3 Chương trình tác động/Giải pháp gợi ý/Làm Megan phải thừa nhận là có những lúc cố tình làm người khác hiểu sai.md",
+    "3 Chương trình tác động/Giải pháp gợi ý/Làm Megan phải tự phá rule của mình.md",
+    "3 Chương trình tác động/Kế hoạch tác động.md",
+    "Danh sách/Danh sách các lý do của Megan.md",
+    "3 Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Luật pháp, xã hội, đạo đức/Untitled.md",
+    "3 Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Luật pháp, xã hội, đạo đức/Luật pháp quy định đời sống riêng tư là bất khả xâm phạm.md",
+    "3 Chương trình tác động/Tài liệu",
+    "3 Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Luật pháp, xã hội, đạo đức/Hành vi đe dọa tự sát được xem vi phạm pháp luật ở ngước ngoài, Việt Nam thì còn hạn chế.md",
+    "3 Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Luật pháp, xã hội, đạo đức/Được ghi âm nếu dùng để bảo vệ quyền, lợi ích hợp pháp hoặc để làm chứng cứ để chứng minh hành vi phạm tội.md",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/Danish sẵn sàng tham gia giúp đỡ Megan.md",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/Danish nghĩ Megan có thể thay đổi.md",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/Danish không nghĩ Megan rồi sẽ ổn thôi.md",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/Hattori sẵn sàng tác động Megan khi Megan không nhờ.md",
+    "3 Chương trình tác động/Kế hoạch tháng 4.md",
+    "3 Kế hoạch tác động/Những thứ Nhật đã thay đổi được.md",
+    "3 Kế hoạch tác động/Giải pháp gợi ý/Đòn impact dứt điểm sự phụ thuộc và ngộ nhận.md",
+    "Thiết lập/Media/Megan muốn thay đổi.png",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/j.i Megan không còn cảm thấy mình trống rỗng",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/Cuộc sống không tạo nhiều căng thẳng cho Megan",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/2i Megan dám nói rằng ❝tôi sẽ không để nỗi sợ chi phối mình❞",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/1b Megan cảm thấy những người xung quanh cô cảm thấy cô nên trò chuyện với Cueball",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/o Megan hoặc Danish tham gia những buổi chia sẻ vòng tròn",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/n Megan, Danish hoặc Beret đối thoại với những người khác biệt quan điểm với mình",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/m Megan sẽ chủ động gặp người cô coi thường để hiểu những gì họ nghĩ",
+    "3 Kế hoạch tác động/Thành quả mong muốn (outcome)/l Megan muốn đặt câu hỏi về tất cả những gì mình nghĩ",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "Thiết lập/Media/firefox_2020-09-02_22-58-15.png",
+    "Thiết lập/Media/firefox_2020-09-23_03-01-07.png",
+    "Thiết lập/Media/Iris hứa thay đổi.jpg",
+    "Thiết lập/Media/Screenshot_20201202-204352.jpg",
+    "Thiết lập/Media/Screenshot_20201202-204417.jpg",
+    "Thiết lập/Media/Soft kitty.jpg",
+    "Thiết lập/Media/Tin tưởng mình sẽ làm mọi chuyện tốt hơn.jpg",
+    "Thiết lập/Media/Thảo muốn thay đổi.png",
+    "Thông tin thân chủ/Thế giới kỳ diệu/Lý giải cái tên Meroko.jpg",
+    "Obsidian-va-Git-cho-quan-ly-du-an/Trang chủ.canvas"
+  ]
+}

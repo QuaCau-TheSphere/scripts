@@ -1,0 +1,163 @@
+{
+  "strategy": "default",
+  "matchStrategy": "prefix",
+  "maxNumberOfSuggestions": 255,
+  "maxNumberOfWordsAsPhrase": 1,
+  "minNumberOfCharactersTriggered": 2,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": false,
+  "firstCharactersDisableSuggestions": ":/^",
+  "showMatchStrategy": false,
+  "showComplementAutomatically": false,
+  "showIndexingStatus": false,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "Tab, Shift+Tab",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": false,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": true,
+  "customDictionaryPaths": "Thiết lập/Gõ tắt.md",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "|",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": false,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": true,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
+  "showLogAboutPerformanceInConsole": true,
+  "selectionHistoryTree": {
+    "tp": {
+      "Thành phẩm:: ": {
+        "customDictionary": {
+          "count": 10,
+          "lastUpdated": 1678259643308
+        }
+      }
+    },
+    "tqht": {
+      "Thành quả hỗ trợ:: ": {
+        "customDictionary": {
+          "count": 18,
+          "lastUpdated": 1679979967549
+        }
+      }
+    },
+    "nt": {
+      "Niềm tin về họ:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1678205448537
+        }
+      }
+    },
+    "Niềm tin về họ:: ": {
+      "Niềm tin về họ:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1678205506750
+        }
+      }
+    },
+    "ch": {
+      "Câu hỏi:: ": {
+        "customDictionary": {
+          "count": 24,
+          "lastUpdated": 1679979838097
+        }
+      }
+    },
+    "ld": {
+      "Lý do:: ": {
+        "customDictionary": {
+          "count": 22,
+          "lastUpdated": 1679940273433
+        }
+      }
+    },
+    "kn": {
+      "Khái niệm:: ": {
+        "customDictionary": {
+          "count": 11,
+          "lastUpdated": 1679979553325
+        }
+      }
+    },
+    "dy": {
+      "Điểm yếu::": {
+        "customDictionary": {
+          "count": 4,
+          "lastUpdated": 1679897606172
+        }
+      }
+    },
+    "tqcc": {
+      "Thành quả cần có:: ": {
+        "customDictionary": {
+          "count": 5,
+          "lastUpdated": 1679937588738
+        }
+      }
+    },
+    "gp": {
+      "Giải pháp gợi ý:: ": {
+        "customDictionary": {
+          "count": 10,
+          "lastUpdated": 1679995585376
+        }
+      }
+    },
+    "Khái niệm:: ": {
+      "Khái niệm:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1679669868949
+        }
+      }
+    },
+    "Điểm yếu::": {
+      "Điểm yếu::": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1679757261973
+        }
+      }
+    },
+    "Giải pháp gợi ý:: ": {
+      "Giải pháp gợi ý:: ": {
+        "customDictionary": {
+          "count": 2,
+          "lastUpdated": 1679940353957
+        }
+      }
+    },
+    "dm": {
+      "Điểm mạnh::": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1679897599697
+        }
+      }
+    }
+  }
+}

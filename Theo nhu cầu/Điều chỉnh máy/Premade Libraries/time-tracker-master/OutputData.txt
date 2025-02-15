@@ -1,0 +1,14 @@
+C:\Windows\Explorer.EXE 		 258
+C:\Windows\system32\rundll32.exe 		 3
+C:\Windows\system32\NOTEPAD.EXE 		 75
+C:\Program Files\Notepad++\notepad++.exe 		 1122
+C:\Program Files\Internet Explorer\iexplore.exe 		 18
+C:\Program Files\Mozilla Firefox\firefox.exe 		 4506
+C:\Program Files\AutoHotkey\AutoHotkey.exe 		 243
+C:\Program Files\ManicTime\ManicTimeClient.exe 		 9
+C:\Program Files\Tracker Software\PDF Viewer\PDFXCview.exe 		 9867
+ 		 30
+C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE 		 843
+C:\Program Files\RescueTime\RescueTime.exe 		 6
+C:\Windows\system32\scrnsave.scr 		 6
+C:\Program Files\Windows Defender\MSASCui.exe 		 48

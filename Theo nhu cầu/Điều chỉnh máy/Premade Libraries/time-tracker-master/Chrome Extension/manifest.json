@@ -1,0 +1,14 @@
+{
+	"name": "Append URL to Tab Title",
+	"version": "1.0",
+	"manifest_version": 2,
+
+	"description": "Appends the current page's URL (hostname) to the tab's title",
+
+	"content_scripts":
+	[{
+		"js": ["inject.js"] ,
+		"matches": ["*://*/*"],
+		"run_at": "document_end"
+	}]
+}

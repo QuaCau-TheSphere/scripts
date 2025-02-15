@@ -1,0 +1,126 @@
+{
+  "main": {
+    "id": "d66b5215f33af7ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c8ab61449240086",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Con người thật.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd754d9716d8fee3",
+    "type": "split",
+    "children": [
+      {
+        "id": "54e598bd815941cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04be2becca472d2d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4c392dd4240f69de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2d0aeaa197cb9f95",
+    "type": "split",
+    "children": [
+      {
+        "id": "8201cf6c17dc365d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4218b0231ae0b150",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Con người thật.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "107a2cb207f6de6d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Con người thật.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "13508a5fa1ab246a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3c8ab61449240086",
+  "lastOpenFiles": [
+    "Game.md",
+    "Không muốn tin ai hết.md",
+    "Thế giới quan.md",
+    "Thay đổi.md",
+    "Thế giới kỳ diệu/Đảo Meo/Thần thời gian và lịch sử.md",
+    "Thế giới kỳ diệu/Đảo Meo/Tầng 7.md",
+    "Thế giới kỳ diệu/Đảo Meo/Tầng 6.md",
+    "Thế giới kỳ diệu/Đảo Meo/Những thứ mình thấy hấp dẫn.md",
+    "Thế giới kỳ diệu/Chuông khổng lồ.md",
+    "Untitled.md"
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "0b1ef8b619fe70dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "23008036ce95954e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85d130993ace45b4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b2c35c5e76980b37",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "05cab6435ec881c8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f58e8a3d508b5ccf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b5ab589e316ff2ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Thông tin thân chủ/Thế giới kỳ diệu/Đảo Meo/Thần thời gian và lịch sử.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff79ca940646c203",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9bd0c5cb881fd615",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2045f6fd632b79db",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f3c58a3fb2b38f00",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "baefcaf206c62a8b",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "aa46f172f5794207",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c9e814a2cbe8c53e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Thông tin thân chủ/Thế giới kỳ diệu/Đảo Meo/Thần thời gian và lịch sử.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b7664a05ae756262",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Thông tin thân chủ/Thế giới kỳ diệu/Đảo Meo/Thần thời gian và lịch sử.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "2a81964fd7035a3f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Thông tin thân chủ/Thế giới kỳ diệu/Đảo Meo/Thần thời gian và lịch sử.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "homepage:Open homepage": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b5ab589e316ff2ca",
+  "lastOpenFiles": [
+    "Kế hoạch tác động/Giải pháp đề xuất/Ngăn chặn uống cồn.md",
+    "Thông tin thân chủ/Từ điển/Quan tâm.md",
+    "1 Danh sách/Danh sách câu hỏi cho Thảo.md",
+    "Kế hoạch tác động/Giải pháp đề xuất/Nhập viện tâm thần.md",
+    "1 Danh sách/Danh sách các hệ quả.md",
+    "Kế hoạch tác động/Giải pháp đề xuất/Làm Thảo phải tự phá rule của mình.md",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Luật pháp/Hành vi đe dọa tự sát được xem vi phạm pháp luật ở ngước ngoài, Việt Nam thì còn hạn chế.md",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Điểm yếu/Mẹ của Thảo không muốn nghe hoặc không tin tưởng vào thông tin và lời khuyên của mình.md",
+    "Kế hoạch tác động/Giải pháp đề xuất/Làm Thảo phải thừa nhận là có những lúc cố tình làm người khác hiểu sai.md",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Luật pháp/Được ghi âm nếu dùng để bảo vệ quyền, lợi ích hợp pháp hoặc để làm chứng cứ để chứng minh hành vi phạm tội.md",
+    "Thông tin thân chủ/Quan điểm, thái độ, nguyên tắc sống/Đã là con người thì phải biết đau khổ.md",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Điểm yếu/Đòn impact dứt điểm sự phụ thuộc và ngộ nhận.md",
+    "Thông tin thân chủ/Mối quan hệ/Bạn bè/Papa.md",
+    "Thông tin thân chủ/Quan điểm, thái độ, nguyên tắc sống/Sợ người khác gặp vấn đề gì.md",
+    "Kế hoạch tác động/Những người muốn giúp đỡ Thảo tham gia vault này.md",
+    "Kế hoạch tác động/Thành quả mong muốn (outcome)/Thảo không còn áp đặt người khác.md",
+    "1 Danh sách/Danh sách các lý do của Thảo.md",
+    "Thông tin thân chủ/Quan điểm, thái độ, nguyên tắc sống/sống mà không có bệnh, đau và khổ, thì không đáng sống.md",
+    "Thiết lập/Templates/Bạn bè, người thân.md",
+    "Thông tin thân chủ/Sync với vault chính/Hiểu biết/Ai biết về tâm hồn nhiều thì người đó phải biết về cơ thể nhiều.md",
+    "Dopamine.md",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Luật pháp/Điều 21 Hiến pháp quy định bất khả xâm phạm về đời sống riêng tư.md",
+    "Thông tin thân chủ/Quan điểm, thái độ, nguyên tắc sống/Châu Á không có tuyết.md",
+    "Thông tin thân chủ/Quan điểm, thái độ, nguyên tắc sống/Không bao giờ chủ động chia tay.md",
+    "Thông tin thân chủ/Mối quan hệ/Kẻ thù/Puka.md",
+    "Thông tin thân chủ/Quan điểm, thái độ, nguyên tắc sống/Mar là người lươn lẹo.md",
+    "Thông tin thân chủ/Mối quan hệ/Kẻ thù",
+    "Thông tin thân chủ/Mối quan hệ/Bạn bè/Đen 3k",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Xã hội",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức/Luật pháp",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Điểm yếu",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Điểm mạnh",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức/Thách thức",
+    "Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức",
+    "Kế hoạch tác động/Giải pháp đề xuất",
+    "1 Danh sách",
+    "Thiết lập/Media/New folder (2)/Screenshot_20211024-150238.jpg",
+    "Thiết lập/Media/New folder/Screenshot_20210403-191413.jpg",
+    "Thiết lập/Media/New folder (2)/Screenshot_20210605-192529.jpg",
+    "Thiết lập/Media/Screenshot_20201202-204417.jpg",
+    "Thiết lập/Media/Screenshots/Screenshot_2020-04-06-00-19-12.png",
+    "Thiết lập/Media/New folder (2)/Screenshot_20210510-111546.jpg",
+    "Thiết lập/Media/New folder/Screenshot_20210403-191145.jpg",
+    "Thiết lập/Media/New folder (3)/received_227294092566998.jpeg",
+    "Thiết lập/Media/New folder (2)/Screenshot_20210403-191145.jpg",
+    "Thiết lập/Media/Screenshots/Screenshot_2020-01-28-13-12-23.png"
+  ]
+}

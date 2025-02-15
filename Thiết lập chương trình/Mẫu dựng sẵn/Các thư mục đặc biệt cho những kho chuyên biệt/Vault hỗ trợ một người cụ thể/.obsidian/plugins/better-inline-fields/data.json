@@ -1,0 +1,37 @@
+{
+  "autocomplete": [
+    {
+      "field": "Lý do",
+      "folder": "1 Thông tin thân chủ"
+    },
+    {
+      "field": "Thành quả cần có",
+      "folder": "3 Kế hoạch tác động/Thành quả mong muốn (outcome)"
+    },
+    {
+      "field": "Thành quả hỗ trợ",
+      "folder": "3 Kế hoạch tác động/Thành quả mong muốn (outcome)"
+    },
+    {
+      "field": "Thành phẩm",
+      "folder": "3 Kế hoạch tác động/Thành phẩm nhỏ hơn (output)"
+    },
+    {
+      "field": "Điểm yếu",
+      "folder": "3 Kế hoạch tác động/Điểm mạnh, điểm yếu, thách thức"
+    },
+    {
+      "field": "Điểm yếu",
+      "folder": "1 Thông tin thân chủ"
+    },
+    {
+      "field": "Khái niệm",
+      "folder": "1 Thông tin thân chủ/Từ điển"
+    },
+    {
+      "field": "Giải pháp gợi ý",
+      "folder": "3 Kế hoạch tác động/Giải pháp gợi ý"
+    }
+  ],
+  "regexpTrigger": "/"
+}
