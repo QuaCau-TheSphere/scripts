@@ -1,97 +1,75 @@
-
+import { isAbsolute, join } from "jsr:@std/path";
+import { assert } from "jsr:@std/assert/assert";
 import { parseArgs } from "jsr:@std/cli/parse-args";
-import { extract } from "jsr:@std/front-matter/yaml";
-import type {Vault as ThiếtLậpVault} from "../../../Apps/Truyền thông/đối ⊷ thoại/Code chạy trên local, server, KV/Bài đăng/Hàm và kiểu cho vault, dự án, bài đăng.ts"
-const {nơiLưuVault, tênRepoWebsite} = parseArgs(Deno.args, {
-  string: ["nơiLưuVault", "tênRepoWebsite"],
-});
+import { stringify } from "jsr:@std/yaml";
 
-import { exec } from "https://deno.land/x/exec/mod.ts";
+import type { Kho } from "../../../Apps/Utils/Xử lý kho/Kiểu cho kho, dự án.ts";
+import type {
+  ĐườngDẫnTuyệtĐối,
+  ĐườngDẫnTươngĐối,
+} from "../../../Apps/Utils/Xử lý kho/Đường dẫn.ts";
+import { API_GITHUB } from "../../../Apps/Utils/Xử lý kho/API.ts";
 
-async function prompt(question: string): Promise<string> {
-  const buf = new Uint8Array(1024);
-  await Deno.stdout.write(new TextEncoder().encode(question + " "));
-  const n = <number>await Deno.stdin.read(buf);
-  return new TextDecoder().decode(buf.subarray(0, n)).trim().toUpperCase();
+interface NewType {
+  mãDựÁn: string;
+  tênKho: string;
+  tênKhoKhôngDấuKhôngCách: string;
+  tênMiềnCon: string;
 }
 
-const mãDựÁn = await prompt("Nhập mã dự án (A, B, C, D, E, F, G):");
-const tênVault = await prompt("Nhập tên vault (có dấu):");
-const tênVaultKhôngDấu = await prompt("Nhập tên vault (không dấu):");
-const subdomain = await prompt("Nhập subdomain (có dấu):");
+const { mãDựÁn, tênKho, tênKhoKhôngDấuKhôngCách, tênMiềnCon } = parseArgs(
+  Deno.args,
+  {
+    string: ["mãDựÁn", "tênKho", "tênKhoKhôngDấuKhôngCách", "tênMiềnCon"],
+  },
+) as NewType;
 
-const nơiLưu = "D:/Quả Cầu";
-const nơiLưuVault = `${nơiLưu}/Vaults/${tênVault}`;
-const tênRepoWebsite = `${mãDựÁn}W-${tênVaultKhôngDấu}`;
-const tênRepoVault = `${mãDựÁn}V-${tênVaultKhôngDấu}`;
-const nơiLưuWebsite = `${nơiLưu}/Code/Websites/${tênRepoWebsite}`;
+const nơiLưuKho = `D:/Quả Cầu/Vaults/${tênKho}` as ĐườngDẫnTuyệtĐối;
 
-const nơiLưuMẫu = "D:/Quả Cầu/Code/Scripts/Thiết lập chương trình/Mẫu dựng sẵn";
-const nơiLưuVaultMẫu = `${nơiLưuMẫu}/Kho Obsidian`;
-const nơiLưuWebsiteMẫu = `${nơiLưuMẫu}/Website`;
+assert(isAbsolute(nơiLưuKho));
 
-await tạoVault();
-await tạoWebsite();
+await chỉnhThiếtLậpEnveloppe();
+await chỉnhThiếtLậpKho();
 
-async function tạoVault() {
-  await exec(`cp -r "${nơiLưuVaultMẫu}" "${nơiLưuVault}"`);
-  Deno.chdir(nơiLưuVault);
+async function chỉnhThiếtLậpEnveloppe() {
+  const nộiDungEnv = `GITHUB_TOKEN=${API_GITHUB}`;
+  const tênRepoWebsite = `${mãDựÁn}W-${tênKhoKhôngDấuKhôngCách}`;
+  const đườngDẫnTớiEnveloppe = join(
+    nơiLưuKho,
+    ".obsidian",
+    "plugins",
+    "obsidian-mkdocs-publisher",
+  ) as ĐườngDẫnTươngĐối;
+  const đườngDẫnTớiEnvEnveloppe = join(
+    đườngDẫnTớiEnveloppe,
+    "env",
+  ) as ĐườngDẫnTươngĐối;
+  const đườngDẫnTớiDataEnveloppe = join(
+    đườngDẫnTớiEnveloppe,
+    "data.json",
+  ) as ĐườngDẫnTươngĐối;
 
-  await exec(`deno run -A "Chỉnh thiết lập.ts" --nơiLưuVault "${nơiLưuVault}" --tênRepoWebsite "${tênRepoWebsite}"`);
-  
-  const tênVàOrgRepoVault = `QuaCau-TheSphere/${tênRepoVault}`;
-  
-  await exec("git init");
-  await exec("git add -A");
-  await exec("git commit -m 'Khởi tạo vault'");
-  
-  await exec(`gh repo create --public ${tênVàOrgRepoVault}`);
-  const url = (await exec(`gh repo view ${tênVàOrgRepoVault} --json url --jq '.url'`)).output.trim();
-  
-  await exec(`git remote add origin ${url}`);
-  await exec("git push -u origin main");
+  const enveloppeData = await JSON.parse(
+    await Deno.readTextFile(đườngDẫnTớiDataEnveloppe),
+  );
+  enveloppeData["github"]["repo"] = tênRepoWebsite;
+  await Deno.writeTextFile(
+    đườngDẫnTớiDataEnveloppe,
+    JSON.stringify(enveloppeData),
+  );
+  await Deno.writeTextFile(đườngDẫnTớiEnvEnveloppe, nộiDungEnv);
 }
 
-async function tạoWebsite() {
-  await exec(`cp -r "${nơiLưuWebsiteMẫu}" "${nơiLưuWebsite}"`);
-  Deno.chdir(nơiLưuWebsite);
-
-  await Deno.writeTextFile("CNAME", `${subdomain}.quảcầu.cc\n`);
-
-  const tênVàOrgRepoWebsite = `QuaCau-TheSphere/${tênRepoWebsite}`;
-
-  await exec("git init");
-  await exec("git add -A");
-  await exec("git commit -m 'Khởi tạo website'");
-
-  await exec(`gh repo create --public ${tênVàOrgRepoWebsite}`);
-  const url = (await exec(`gh repo view ${tênVàOrgRepoWebsite} --json url --jq '.url'`)).output.trim();
-
-  await exec(`git remote add origin ${url}`);
-  await exec("git push -u origin main");
+async function chỉnhThiếtLậpKho() {
+  const đườngDẫnthiếtLậpKho = `${nơiLưuKho}/Ξ Thiết lập/Ξ Thiết lập.md`;
+  const kho: Kho = {
+    "Tên kho": tênKho,
+    "Nơi lưu kho": nơiLưuKho,
+    "Mã kho": mãDựÁn,
+    URL: `${tênMiềnCon}.quảcầu.cc`,
+  };
+  const frontmatter = `---\n${stringify(kho)}---\n`;
+  await Deno.writeTextFile(đườngDẫnthiếtLậpKho, frontmatter);
 }
 
-
-
-await chỉnhThiếtLậpEnveloppe()
-await chỉnhThiếtLậpVault();
-
-async function chỉnhThiếtLậpEnveloppe(){
-  const enveloppeDataPath = `${nơiLưuVault}/.obsidian/plugins/obsidian-mkdocs-publisher/data.json`
-  const enveloppeData = await JSON.parse(await Deno.readTextFile(enveloppeDataPath))
-  enveloppeData["github"]["repo"] = tênRepoWebsite
-  await Deno.writeTextFile(enveloppeDataPath, JSON.stringify(enveloppeData))  
-}
-
-
-
-async function chỉnhThiếtLậpVault() {
-  const thiếtLậpVaultPath = `${nơiLưuVault}/Ξ Thiết lập/Ξ Thiết lập.md`;
-  const tệpThiếtLậpVault = await Deno.readTextFile(thiếtLậpVaultPath);
-  const thiếtLậpVault = extract(tệpThiếtLậpVault).attrs as ThiếtLậpVault;
-  thiếtLậpVault["Tên vault"] = t
-}
-// Tên vault: Obsidian, quản lý dự án và công cụ nghĩ
-// Mã vault: C1
-// Mô tả vault: Hiểu biết sâu về các môi trường nơi sự suy nghĩ diễn ra, và cách ứng dụng chúng vào quản lý dự án
-// URL: https://obsidian.quảcầu.cc
+console.log("Đã chỉnh xong thiết lập của kho");
