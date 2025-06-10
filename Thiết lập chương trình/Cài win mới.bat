@@ -3,7 +3,6 @@ ECHO Y | REG ADD "HKCU\Software\Classes\Local Settings\Software\Microsoft\Window
 
 winget install -e --id Mozilla.Firefox.DeveloperEdition
 
-winget install notepad++ 
 winget install -e --id RobertFFrasca.PDFKeeper
 winget install -e --id SumatraPDF.SumatraPDF
 winget install -e --id Obsidian.Obsidian
@@ -16,6 +15,7 @@ winget install -e --id Rambox.Rambox.Community
 
 winget install Microsoft.WindowsTerminal 
 winget install -e --id Microsoft.PowerShell.Preview
+winget install notepad++ 
 winget install -e --id VSCodium.VSCodium
 winget install -e --id GNU.Emacs
 winget install -e --id Neovim.Neovim
@@ -30,7 +30,12 @@ winget install -e --id GoLang.Go.1.18
 winget install -e --id Hugo.Hugo.Extended
 winget install -e --id Docker.DockerDesktop
 winget install -e --id Anaconda.Miniconda3
+winget install -e --id Oracle.JDK.19
+winget install -e --id ClockworkMod.UniversalADBDriver
+winget install -e --id Python.Python.3.13
+winget install -e --id RStudio.quarto
 
+winget install -e --id qBittorrent.qBittorrent
 winget install -e --id M2Team.NanaZip
 winget install -e --id SoftDeluxe.FreeDownloadManager
 winget install -e --id WinDirStat.WinDirStat
@@ -47,11 +52,16 @@ winget install -e --id TheDocumentFoundation.LibreOffice
 winget install -e --id Inkscape.Inkscape
 winget install -e --id GIMP.GIMP
 winget install -e --id KDE.Krita
+winget install -e --id DigitalScholar.Zotero
+winget install --source winget --exact --id JohnMacFarlane.Pandoc
+winget install --id Typst.Typst
 
 winget install -e --id WinMerge.WinMerge.Beta
 winget install -e --id SyncTrayzor.SyncTrayzor
 winget install -e --id Nextcloud.NextcloudDesktop
 winget install -e --id liberodark.ODrive
+winget install -e --id AnyDeskSoftwareGmbH.AnyDesk
+winget install -e --id DucFabulous.UltraViewer
 
 deno install --allow-run --allow-env --allow-read --name lume --force --reload --global https://deno.land/x/lume_cli/mod.ts
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
